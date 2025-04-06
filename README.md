@@ -22,7 +22,7 @@ A real-time chat application built with React, Socket.IO, and Express.
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/YOUR_USERNAME/react-socket-chat.git
+git clone https://github.com/PanosKatsaras/react-socketio-chat.git
 cd react-socket-chat
 ```
 
