@@ -1,0 +1,148 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #101a01;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  --chat-width: 500px;
+  /* Single source of truth for width */
+}
+
+a {
+  font-weight: 500;
+  color: #79ea07;
+  text-decoration: inherit;
+}
+
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 100%;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 0.9em;
+  color: #79ea07;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+h3 {
+  color: #79ea07;
+  margin-bottom: 1em;
+  font-weight: bold;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  overflow-y: auto;
+  max-height: 300px;
+  color: black;
+  width: var(--chat-width);
+  margin: 0 auto;
+  background-color: #222f0f;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1.1em;
+  font-weight: 700;
+  font-family: inherit;
+  background-color: #79ea07;
+  color: black;
+  cursor: pointer;
+  transition: border-color 0.25s;
+  margin-left: 0.5em;
+}
+
+button:hover {
+  border-color: #bdffc1;
+  background-color: #354b14;
+  color: #79ea07;
+}
+
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+form {
+  display: flex;
+  width: var(--chat-width);
+  margin: 10px auto 0;
+  align-items: center;
+  gap: 10px;
+}
+
+.chat-input {
+  width: 100%;
+  height: 46px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  font-size: 16px;
+  background-color: #ffffff;
+  color: #101a01;
+  box-sizing: border-box;
+}
+
+/* Responsive styles */
+@media (max-width: 600px) {
+  :root {
+    --chat-width: 95%;
+    /* Adjust width for smaller screens */
+  }
+
+  form {
+    flex-direction: column;
+    padding: 0 10px;
+  }
+
+  .chat-input {
+    margin-bottom: 10px;
+  }
+
+  button {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  h1,
+  h3 {
+    width: 95%
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #101a01;
+    background-color: #ffffff;
+  }
+
+  a:hover {
+    color: #747bff;
+  }
+
+  button {
+    background-color: #79ea07;
+  }
+}
