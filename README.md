@@ -2,9 +2,9 @@
 
 A real-time chat application built with React, Socket.IO, and Express.
 
-![chat-image](https://github.com/user-attachments/assets/2b380936-6e11-4b17-b386-a31903a433f9)
 
 ![chat-img2](https://github.com/user-attachments/assets/e9f8a4ae-e7af-4db4-8827-cac4bff62e2a)
+
 
 ## Features
 
