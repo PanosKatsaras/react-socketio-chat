@@ -13,6 +13,14 @@ A real-time chat application built with React, Socket.IO, Node.js, Vite and Expr
 - User identification
 - Responsive design
 - Auto-scroll to latest messages
+- Real-time bidirectional communication
+- System notifications for user connections
+- Distinct message styling for sender/receiver
+- Auto-scroll to latest messages
+- Responsive layout
+- User identification with socket IDs
+- Message timestamps
+
 
 ## Technologies
 
