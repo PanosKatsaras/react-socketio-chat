@@ -1,6 +1,6 @@
 # React Socket.IO Chat
 
-A real-time chat application built with React, Socket.IO, Node.js, Vite and Express.
+A real-time chat application built with React, Socket.IO, Node.js, Vite and, Express.
 
 
 ![chat-img2](https://github.com/user-attachments/assets/e9f8a4ae-e7af-4db4-8827-cac4bff62e2a)
